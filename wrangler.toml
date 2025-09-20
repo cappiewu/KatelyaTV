@@ -13,7 +13,7 @@ NEXT_PUBLIC_SITE_NAME = "KatelyaTV"
 NEXT_PUBLIC_SITE_DESCRIPTION = "高性能影视播放平台"
 
 # NextAuth 配置
-NEXTAUTH_URL = "https://your-domain.pages.dev"
+NEXTAUTH_URL = "https://katelyatv-8u2.pages.dev"
 
 # 图片代理配置
 IMAGE_PROXY_ENABLED = "true"
@@ -42,7 +42,7 @@ NODE_ENV = "production"
 [[env.production.d1_databases]]
 binding = "DB"
 database_name = "katelyatv-db"
-database_id = "your-d1-database-id-here"
+database_id = "3629c9eb-61cb-4e04-ad2c-79e663490bb9"
 
 [build]
 command = "pnpm pages:build"
